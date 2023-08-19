@@ -27,7 +27,7 @@ button.addEventListener("click", function() {
     // Get the values of the title and text fields
     const tittle = document.getElementById("tittle").value;
     const text = document.getElementById("input").value;
-    const imge = document.getElementById("imageinput").file0
+    // const imge = document.getElementById("imageinput").file0
    // Get the current user's ID
    const userId = auth.currentUser ? auth.currentUser.uid : null;
 
